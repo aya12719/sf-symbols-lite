@@ -1,0 +1,8 @@
+{
+  "indentation" : {
+    "tabs" : 1
+  },
+  "lineLength" : 300,
+  "multiElementCollectionTrailingCommas" : false,
+  "version" : 1
+}

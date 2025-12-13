@@ -1,0 +1,19 @@
+disabled_rules:
+  - identifier_name
+  - type_name
+
+line_length:
+  error: 300
+  warning: 300
+
+function_body_length:
+  error: 80
+  warning: 80
+
+type_body_length:
+  error: 300
+  warning: 300
+
+cyclomatic_complexity:
+  error: 30
+  warning: 30

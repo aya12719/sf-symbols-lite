@@ -1,0 +1,6 @@
+#!/bin/sh
+cd "$(dirname "$0")"
+echo "🚀 START FORMATTING CODE\n"
+
+swift-format -r -i "./SF Symbols Lite/Source" --configuration ./.swift-format
+echo "   🎨 SF Symbols Lite/Source"

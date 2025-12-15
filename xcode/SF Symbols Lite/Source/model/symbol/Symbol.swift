@@ -72,7 +72,7 @@ final class Symbol: Codable, ObservableObject, Hashable {
 		self.platform = try container.decodeIfPresent(SymbolPlatform.self, forKey: .platform)
 		self.tags = try container.decodeIfPresent(Set<SymbolTag>.self, forKey: .tags) ?? []
 		self.terms = try container.decodeIfPresent(Set<SymbolTerm>.self, forKey: .terms) ?? []
-        self.metadata = try container.decodeIfPresent([String].self, forKey: .metadata) ?? []
+		self.metadata = try container.decodeIfPresent([String].self, forKey: .metadata) ?? []
 		self.favorite = try container.decodeIfPresent(Bool.self, forKey: .favorite) ?? false
 	}
 

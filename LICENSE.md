@@ -1,8 +1,8 @@
 # ⚖️ MIT License
 
 [![](https://img.shields.io/badge/MIT-License-E0383E.svg)](https://opensource.org/licenses/MIT)
-[![](https://img.shields.io/badge/DOCS-1.0-E0383E.svg)](./DOCS.md)
-[![](https://img.shields.io/badge/Download-1.0-E0383E.svg?logo=github)](https://github.com/ruiaureliano/sf-symbols-lite/releases/download/1.0/sf-symbols-lite-1.0.zip)
+[![](https://img.shields.io/badge/DOCS-1.0.1-E0383E.svg)](./DOCS.md)
+[![](https://img.shields.io/badge/Download-1.0.1-E0383E.svg?logo=github)](https://github.com/ruiaureliano/sf-symbols-lite/releases/download/1.0.1/sf-symbols-lite-1.0.1.zip)
 
 ## Copyright (c) 2025 Rui Aureliano
 

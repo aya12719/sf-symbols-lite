@@ -25,8 +25,9 @@ struct SFSymbolsLiteSideToolbarView: View {
 			.padding(.leading, 15)
 			.padding(.bottom, 15)
 			.buttonStyle(.plain)
-
 			Spacer()
+			SFSymbolsLiteSideToolbarDownloadView()
 		}
+		.frame(height: 30)
 	}
 }

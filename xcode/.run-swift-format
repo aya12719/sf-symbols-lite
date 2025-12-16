@@ -1,6 +1,7 @@
 #!/bin/sh
 cd "$(dirname "$0")"
-echo "🚀 START FORMATTING CODE\n"
-
+RED="\033[0;31m"
+RESET="\033[0m"
+printf "\n${RED}START FORMATTING CODE${RESET}\n\n"
 swift-format -r -i "./SF Symbols Lite/Source" --configuration ./.swift-format
-echo "   🎨 SF Symbols Lite/Source"
+printf "${RED}\tSF Symbols Lite/Source${RESET}\n"

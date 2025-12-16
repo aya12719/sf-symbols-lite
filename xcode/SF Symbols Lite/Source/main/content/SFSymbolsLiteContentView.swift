@@ -158,7 +158,7 @@ struct SFSymbolsLiteContentView: View {
 		.onChange(of: search) {
 			debounceTask?.cancel()
 			debounceTask = Task {
-				try? await Task.sleep(nanoseconds: 200_000_000)
+				try? await Task.sleep(nanoseconds: 400_000_000)
 				guard !Task.isCancelled else { return }
 				await MainActor.run {
 					debounceSearch = search

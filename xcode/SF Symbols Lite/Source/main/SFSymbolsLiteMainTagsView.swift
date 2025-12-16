@@ -12,7 +12,7 @@ struct SFSymbolsLiteMainTagsView: View {
 					HStack {
 						Text("􀋡 " + tag.keyword + " 􀆄")
 					}
-					.tokenSection(selected: false)
+					.tokenSection(selected: true)
 					.shadow(color: .primary.opacity(0.1), radius: 10)
 					.onTapGesture {
 						_ = tags.remove(tag)

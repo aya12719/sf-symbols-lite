@@ -47,7 +47,6 @@ struct SFSymbolsLiteSideToolbarDownloadView: View {
 			}
 		}
 		.task {
-			newBuildIgnore = "1qqq"
 			guard let url = URL(string: "https://api.github.com/repos/ruiaureliano/sf-symbols-lite/releases") else {
 				return
 			}
